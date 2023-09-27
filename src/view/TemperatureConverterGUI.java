@@ -35,11 +35,9 @@ public class TemperatureConverterGUI extends Application {
     pane.setVgap(10);
     // Added three UI controls
     pane.add(celsius, 1, 0);
-//    textCelcius.setMaxWidth(60.0);
     pane.add(textCelcius, 2, 0);
     pane.add(fahrenheit, 1, 2);
     pane.add(textFahrenheit, 2, 2);
- //   textFahrenheit.setMaxWidth(60.0);
 
     BorderPane holder = new BorderPane();
     holder.setCenter(pane);
